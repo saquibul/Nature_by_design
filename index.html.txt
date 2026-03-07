@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nature by Design | Graphic Designer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;margin:0;background:#f4fff7;color:#1d1d1d;line-height:1.6}
+header{background:linear-gradient(135deg,#1f7a4a,#2fa36a);color:white;padding:80px 20px;text-align:center}
+header h1{margin:0;font-size:42px}
+header p{margin-top:10px;font-size:18px;opacity:.9}
+.cta{margin-top:25px}
+.cta a{background:white;color:#1f7a4a;padding:12px 24px;border-radius:30px;text-decoration:none;font-weight:600}
+section{padding:60px 20px;max-width:1100px;margin:auto}
+section h2{text-align:center;margin-bottom:40px;color:#1f7a4a}
+.services,.portfolio{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px}
+.card{background:white;padding:25px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,0.08);text-align:center}
+.card:hover{transform:translateY(-5px);transition:.3s}
+.portfolio img{width:100%;border-radius:10px}
+.about{text-align:center;max-width:700px;margin:auto}
+.contact{background:#e8f7ef;border-radius:12px;padding:30px;text-align:center}
+footer{background:#1f7a4a;color:white;text-align:center;padding:25px;margin-top:40px}
+.social{margin-top:10px}
+.social a{text-decoration:none;color:white;margin:0 8px;font-weight:600}
+</style>
+</head>
+<body><header>
+<h1>Nature by Design</h1>
+<p>Designed by Nature | Crafted by Hand</p>
+<div class="cta">
+<a href="#contact">Contact Me</a>
+</div>
+</header><section>
+<h2>About Me</h2>
+<p class="about">
+Welcome to Nature by Design. I am a passionate graphic designer who loves combining creativity with nature inspired aesthetics. I help businesses build strong visual identities through modern, clean and professional designs.
+</p>
+</section><section>
+<h2>Services</h2>
+<div class="services">
+<div class="card">Logo Design</div>
+<div class="card">Business Card Design</div>
+<div class="card">Poster Design</div>
+<div class="card">Banner Design</div>
+<div class="card">Menu Design</div>
+<div class="card">Invitation Card Design</div>
+<div class="card">Loyalty Card Design</div>
+<div class="card">Social Media Post Design</div>
+</div>
+</section><section>
+<h2>Portfolio</h2>
+<div class="portfolio">
+<div class="card"><img src="https://via.placeholder.com/400x300" alt="design"></div>
+<div class="card"><img src="https://via.placeholder.com/400x300" alt="design"></div>
+<div class="card"><img src="https://via.placeholder.com/400x300" alt="design"></div>
+<div class="card"><img src="https://via.placeholder.com/400x300" alt="design"></div>
+</div>
+</section><section id="contact">
+<h2>Contact</h2>
+<div class="contact">
+<p><strong>Phone / WhatsApp:</strong> 6205856618</p>
+<p><strong>Instagram:</strong> @naturebydesign18</p>
+<p><strong>Email:</strong> naturebydesign18@gmail.com</p>
+<p>Contact me for logo design, branding, posters and creative graphic work.</p>
+</div>
+</section><footer>
+<p>© 2026 Nature by Design</p>
+<div class="social">
+<a href="#">Instagram</a>
+<a href="#">Email</a>
+</div>
+</footer></body>
+</html>
